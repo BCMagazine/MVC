@@ -1,11 +1,11 @@
 {
   "Transaction": "Check Your Transaction on the Blockchain",
-  "CONTRACT_ADDRESS": "0x3d5eaa9f9875635aB520481a6b07a974584C9a12",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x3d5eaa9f9875635ab520481a6b07a974584c9a12#code",
+  "CONTRACT_ADDRESS": "0xD8EA92c04279B1e3d2ed61A7d775d00663bD2eAA",
+  "SCAN_LINK": "https://etherscan.io/address/0xd8ea92c04279b1e3d2ed61a7d775d00663bd2eaa",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "MetaVerse Collective",
   "SYMBOL": "MVC",
