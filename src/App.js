@@ -79,11 +79,11 @@ export const StyledImg = styled.img`
   border: 4px dashed var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
-  width: 200px;
-  @media (min-width: 300px) {
+  width: 100px;
+  @media (min-width: 100px) {
     width: 150px;
   }
-  @media (min-width: 300px) {
+  @media (min-width: 100px) {
     width: 150px;
   }
   transition: width 0.5s;
@@ -199,12 +199,11 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 100, backgroundColor: "var(--primary)" }}
+        style={{ padding: 10, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 54 }} test>
+    
+        <ResponsiveWrapper flex={1} style={{ padding: 100 }} test>
           <s.Container flex={0.005} jc={"center"} ai={"center"}>
             
           </s.Container>
@@ -216,7 +215,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 54,
+              padding: 4,
               borderRadius: 54,
               border: "1px dashed var(--secondary)",
               boxShadow: "0px 5px 10px 2px rgba(0,0,0,0.7)",
@@ -229,10 +228,10 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Transaction: 
+              Transaction Check: 
               
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 5)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 25)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
