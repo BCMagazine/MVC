@@ -199,11 +199,12 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 10, backgroundColor: "var(--primary)" }}
+        style={{ padding: 100, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-    
-        <ResponsiveWrapper flex={1} style={{ padding: 100 }} test>
+        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        <s.SpacerSmall />
+        <ResponsiveWrapper flex={1} style={{ padding: 34 }} test>
           <s.Container flex={0.005} jc={"center"} ai={"center"}>
             
           </s.Container>
@@ -231,7 +232,7 @@ function App() {
               Transaction Check: 
               
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 5)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 25)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
