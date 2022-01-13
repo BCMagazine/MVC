@@ -6,3 +6,15 @@
   --accent: #000000;
   --accent-text: #fbff00;
 }
+.phone-screen {
+  width: 50%;
+  max-width: 50px;
+  height: 90vh;
+  border: 10px solid rgb(0, 0, 0);
+  margin: 1vh auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #8f9902;
+  background-color: #121212;
+}
