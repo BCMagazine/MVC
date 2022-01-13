@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import OpenApp from "react-open-app";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -232,7 +233,7 @@ function App() {
               Transaction Check: 
               
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 25)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 5)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
