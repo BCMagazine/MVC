@@ -10,9 +10,9 @@
   "NFT_NAME": "MetaVerse Collective",
   "SYMBOL": "MVC",
   "WEI_COST": 80000000000000000,
-  "DISPLAY_COST": 0.8,
+  "DISPLAY_COST": 0.08,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "",
-  "MARKETPLACE_LINK": "",
+  "MARKETPLACE": "OpenSea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metaverse-collective",
   "SHOW_BACKGROUND": true
 }
