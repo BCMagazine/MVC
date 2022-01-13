@@ -205,7 +205,7 @@ function App() {
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 54 }} test>
-          <s.Container flex={0.005} jc={"center"} ai={"center"}>
+          <s.Container flex={0.05} jc={"center"} ai={"center"}>
             
           </s.Container>
           <s.SpacerLarge />
