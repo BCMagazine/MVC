@@ -229,10 +229,10 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Transaction Check: 
+              Transaction: 
               
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 25)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
